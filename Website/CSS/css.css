@@ -1,0 +1,94 @@
+a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.background{ 
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 80%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background: rgba(0,0,0,0.7);
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:white;
+}
+
+.nav a{
+    text-align: center;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: rgba(0,0,0,0.7);
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+p.title{
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+p.subheading{
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.formatting{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formatting p{
+    text-align: justify;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.formatting p.subheading{
+    text-align: center;
+    margin-bottom: 10px;
+}
