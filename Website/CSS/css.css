@@ -85,9 +85,19 @@ p.subheading{
     text-decoration: none;
     margin-top: 0;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .formatting p.subheading{
     text-align: center;
     margin-bottom: 10px;
+}
+
+p.Link{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p.Link a{
+    font-size: 23px;
 }
