@@ -101,3 +101,27 @@ p.Link{
 p.Link a{
     font-size: 23px;
 }
+
+p.none{
+    background: rgba(0,0,0,0.0);
+}
+
+.mininav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.mininav a{
+    text-align: center;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.mininav a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
